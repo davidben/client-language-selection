@@ -2,7 +2,7 @@
 
 ## Introduction
 
-User agents specify the user’s preferred languages in the `Accept-Language` HTTP header and the `navigator.language` JavaScript property. This header leaks user entropy to all sites, even to sites that do not use it. Multilingual users who configure full language preferences are particularly affected. We wish to reduce fingerprinting capabilities of the web platform, but, at the same time, web content is not useful if users cannot read it, so we wish to preserve the language negotiation functionality. This proposal is an alternative to the <code>[Lang Client Hint](https://github.com/WICG/lang-client-hint)</code>.
+User agents specify the user’s preferred languages in the `Accept-Language` HTTP header and the `navigator.language` JavaScript property. This header leaks user entropy to all sites, even to sites that do not use it. Multilingual users who configure full language preferences are particularly affected. We wish to reduce fingerprinting capabilities of the web platform, but, at the same time, web content is not useful if users cannot read it, so we wish to preserve the language negotiation functionality. This proposal is an alternative to the [`Lang` Client Hint](https://github.com/WICG/lang-client-hint).
 
 ## Goals
 
